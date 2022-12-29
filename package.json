@@ -3,15 +3,23 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "lintfix": "eslint src --fix --cache"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "express": "^4.18.2",
     "fotmob": "^1.0.4",
     "http-errors": "~1.6.3",
     "jade": "^1.9.2",
-    "morgan": "~1.9.1"
+    "morgan": "~1.9.1",
+    "prettier": "^2.8.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^5.47.1",
+    "eslint": "^8.30.0"
   }
 }
