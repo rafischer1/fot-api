@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "lintfix": "eslint src --fix --cache"
+    "lintfix": "eslint src --fix --cache",
+    "dev": "nodemon ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -20,6 +21,7 @@
   },
   "devDependencies": {
     "@typescript-eslint/parser": "^5.47.1",
-    "eslint": "^8.30.0"
+    "eslint": "^8.30.0",
+    "nodemon": "^2.0.20"
   }
 }
